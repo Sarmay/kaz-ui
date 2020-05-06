@@ -1,8 +1,8 @@
 {
   "name": "kaz-ui",
-  "version": "0.0.7",
-  "description": "基于 Vue UI库",
-  "main": "lib/kazbutton.umd.min.js",
+  "version": "0.0.8",
+  "description": "基于 Vue 的哈萨克语UI库",
+  "main": "lib/kaz-ui.umd.min.js",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "kaz",
-    "kazakh"
+    "kazakh",
+    "kaz-ui"
   ],
   "author": "sarmay <282387881@qq.com>",
   "license": "MIT",
