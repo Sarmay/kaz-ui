@@ -10,15 +10,15 @@ npm install kaz-ui
    1. 在 main.js 中使用
       导入组件库
       ```
-      import KazButton from './../packages/index'
+      import kazUI from 'kaz-ui'
       ```
    2. 导入 css
       ```
-      import 'kaz-button/lib/kazButton.css'
+      import 'kaz-button/lib/kaz-ui.css'
       ```
    3. 注册组件库
       ```
-      Vue.use(KazButton)
+      Vue.use(kazUI)
       ```
 2. 在想使用的页面使用
 
