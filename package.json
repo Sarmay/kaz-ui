@@ -10,8 +10,23 @@
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name kaz-ui --dest lib packages/index.js"
   },
+  "keywords": [
+    "kaz",
+    "kazakh"
+  ],
+  "author": "sarmay <282387881@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sarmay/kaz-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sarmay/kaz-ui/issues"
+  },
+  "homepage": "https://github.com/Sarmay/kaz-ui",
   "dependencies": {
     "core-js": "^3.6.4",
+    "less-loader": "^6.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

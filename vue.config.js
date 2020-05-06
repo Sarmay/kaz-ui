@@ -1,3 +1,4 @@
+const path = require('path')
 module.exports = {
   // 修改 src 为 examples
   pages: {
@@ -11,7 +12,7 @@ module.exports = {
   chainWebpack: config => {
     config.module
       .rule('js')
-      .include.add('packages')
+      .include.add(path.resolve(__dirname, 'packages'))
       .end()
       .use('babel')
       .loader('babel-loader')
